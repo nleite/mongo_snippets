@@ -36,7 +36,7 @@ def run(host, ndocs):
 
 if __name__ == "__main__":
     import timeit
-    timeit.timeit(run("nair.local", 10000))
+    run("nair.local", 10000)
 
 
 
